@@ -73,11 +73,27 @@ Modelin kararında en etkili özellikler: kredi limiti kullanım oranı, geçmi�
 - Yaş gibi özellikler gerçek kredi kararlarında yasal olarak kısıtlı olabilir; adillik analizi yapılmadı. Bu bir portfolyo projesidir, gerçek kredi kararları için kullanılmamalıdır.
 - Veri tek bir yarışmadan ve tek bir dönemdendir; zamana göre bölme yapılmadı.
 
+## Demo (Streamlit)
+
+Müşteri bilgilerini girip kredi kararını, risk skorunu ve kararın nedenlerini görebileceğiniz 3 sayfalı web uygulaması.
+
+**1. Kredi değerlendirme**
+
+![Kredi değerlendirme](reports/uygulama_ekrani.png)
+![Karar nedenleri ve senaryo analizi](reports/uygulama_ekrani2.png)
+
+**2. Model performansı**
+
+![Model performansı](reports/performans_ekrani.png)
+![Model karşılaştırması ve ROC/PR eğrileri](reports/performans_ekrani2.png)
+
+Çalıştırmak için: `streamlit run app.py`
+
 ## Çalıştırma
 
 ```bash
 # Depoyu klonla
-git clone git@github.com:Samiltokat97/credit-risk-project.git
+git clone https://github.com/Samiltokat97/credit-risk-project.git
 cd credit-risk-project
 
 # Sanal ortamı kur ve kütüphaneleri yükle

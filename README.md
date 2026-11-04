@@ -75,6 +75,8 @@ Modelin kararında en etkili özellikler: kredi limiti kullanım oranı, geçmi�
 
 ## Demo (Streamlit)
 
+🔗 **Canlı demo:** [credit-risk-project.streamlit.app](https://credit-risk-project-pwudtdcctpdmeczzcdksbd.streamlit.app/)
+
 Müşteri bilgilerini girip kredi kararını, risk skorunu ve kararın nedenlerini görebileceğiniz 3 sayfalı web uygulaması.
 
 **1. Kredi değerlendirme**
